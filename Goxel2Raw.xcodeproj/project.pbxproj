@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E8763B2B29668A800095E0DA /* Goxel2Raw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Goxel2Raw; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8763B2E29668A800095E0DA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E8763B3629668AFA0095E0DA /* GoxelExport.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoxelExport.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		E8763B2D29668A800095E0DA /* Goxel2Raw */ = {
 			isa = PBXGroup;
 			children = (
+				E8763B3629668AFA0095E0DA /* GoxelExport.txt */,
 				E8763B2E29668A800095E0DA /* main.swift */,
 			);
 			path = Goxel2Raw;
@@ -246,6 +248,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U86C3W5P65;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -257,6 +260,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U86C3W5P65;
 				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
